@@ -32,7 +32,7 @@ header.topbar img {
       rgba(0,0,0,0.15) 60%,
       rgba(0,0,0,0.55)
     ),
-    url("wide_cinematic_high_contrast_music_promo_brand_p.png");
+    url("file_000000006db081f69 54cf54d5fca8b3b.png");
 
   background-size: cover;
   background-position: center center;
@@ -95,4 +95,88 @@ header.topbar img {
 .soundcloud {
   border-color: #ff8c00;
   box-shadow: 0 0 20px rgba(255,140,0,.45);
+}
+/* ===== CORRECCIÓN HERO VALE MUSIC ===== */
+
+.hero {
+  width: 100% !important;
+  min-height: 700px !important;
+  height: 700px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  position: relative !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+
+  background-image: url("wide_cinematic_high_contrast_music_promo_brand_p.png") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+
+  overflow: hidden !important;
+}
+
+/* Oculta cualquier imagen que esté dentro del hero */
+.hero > img,
+.hero .hero-logo {
+  display: none !important;
+}
+
+/* Contenido sobre la imagen */
+.hero-content {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 30px 20px 55px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  position: relative !important;
+  z-index: 5 !important;
+}
+
+/* Botones */
+.hero-buttons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 25px !important;
+  flex-wrap: wrap !important;
+}
+
+.hero .btn {
+  min-width: 180px !important;
+  padding: 15px 30px !important;
+  border-radius: 40px !important;
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  background: rgba(0,0,0,.55) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+.hero .youtube {
+  border: 2px solid #ff1744 !important;
+  box-shadow: 0 0 20px rgba(255,23,68,.6) !important;
+}
+
+.hero .suno {
+  border: 2px solid #c026ff !important;
+  box-shadow: 0 0 20px rgba(192,38,255,.6) !important;
+}
+
+.hero .soundcloud {
+  border: 2px solid #ff8c00 !important;
+  box-shadow: 0 0 20px rgba(255,140,0,.6) !important;
+}
+
+/* ===== LOGO DEL MENÚ SUPERIOR ===== */
+
+header img,
+.navbar img,
+.logo img,
+.site-logo {
+  display: block !important;
+  visibility: visible !important;
 }
