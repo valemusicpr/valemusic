@@ -15,11 +15,20 @@ header.topbar img {
     max-height: 48px !important;
   }
 }
-.hero{
-  background-image:url("hero-valemusic.png") !important;
-  background-size:cover !important;
-  background-position:center !important;
-  background-repeat:no-repeat !important;
-  width:100% !important;
-  min-height:700px !important;
+.hero {
+  width: 100% !important;
+  aspect-ratio: 3 / 2 !important;
+  min-height: 0 !important;
+  height: auto !important;
+
+  background-image: url("hero-valemusic.png") !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+  position: relative !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  overflow: hidden !important;
 }
