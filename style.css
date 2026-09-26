@@ -15,12 +15,11 @@ header.topbar img {
     max-height: 48px !important;
   }
 }
-.hero {
-  background-image: url("hero-valemusic.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  width: 100% !important;
-  min-height: 700px !important;
+.hero{
+  background-image:url("hero-valemusic.png") !important;
+  background-size:cover !important;
+  background-position:center !important;
+  background-repeat:no-repeat !important;
+  width:100% !important;
+  min-height:700px !important;
 }
-  
