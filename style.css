@@ -17,44 +17,43 @@ header.topbar img {
 }
 .hero {
   min-height: 680px;
+  width: 100%;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   text-align: center;
   overflow: hidden;
 
   background-image:
-    linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.35)),
-    url("file_000000006db081f6954cf54d5fca8b3b.png");
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.05),
+      rgba(0,0,0,0.15) 60%,
+      rgba(0,0,0,0.55)
+    ),
+    url("wide_cinematic_high_contrast_music_promo_brand_p.png");
 
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .hero-content {
   width: 100%;
-  padding: 60px 20px 40px;
+  padding: 40px 20px 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.hero-logo {
-  width: min(720px, 85%);
-  height: auto;
-  display: block;
-  object-fit: contain;
-  filter: drop-shadow(0 10px 25px rgba(0,0,0,.7));
+  position: relative;
+  z-index: 2;
 }
 
 .hero-subtitle {
-  margin: 20px 0 30px;
+  margin: 0 0 25px;
   color: #fff;
-  font-size: clamp(18px, 2.5vw, 30px);
-  letter-spacing: 8px;
+  font-size: clamp(16px, 2vw, 27px);
+  letter-spacing: 7px;
   text-shadow: 0 3px 12px #000;
 }
 
@@ -74,7 +73,7 @@ header.topbar img {
   font-weight: bold;
   font-size: 16px;
   border: 2px solid rgba(255,255,255,.5);
-  background: rgba(0,0,0,.45);
+  background: rgba(0,0,0,.55);
   backdrop-filter: blur(5px);
   transition: .3s;
 }
